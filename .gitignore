@@ -1,25 +1,19 @@
-# Datasets
-*.csv
-*.tsv
-*.json
-*.xlsx
-*.zip
-*.gz
-*.h5
-*.pkl
-*.npy
-*.npz
-
-# Dataset folders
-data/
-dataset/
-datasets/
+# Ignore datasets and artifacts
 artifacts/
-logs/
+data/
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.h5
+*.npz
+*.npy
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Logs and outputs
+logs/
+*.log
 
 # Python cache
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
