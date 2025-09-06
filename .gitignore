@@ -8,6 +8,11 @@ data/
 *.h5
 *.npz
 *.npy
+# Explicitly ignore data.zip and all images in kidney folder
+artifacts/data_ingestion/data.zip
+artifacts/data_ingestion/kidney/**/*.jpg
+artifacts/data_ingestion/kidney/**/*.jpeg
+artifacts/data_ingestion/kidney/**/*.png
 
 # Logs and outputs
 logs/
