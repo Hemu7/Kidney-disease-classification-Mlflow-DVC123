@@ -5,7 +5,7 @@ data/
 *.jpg
 *.jpeg
 *.png
-*.h5
+
 *.npz
 *.npy
 # Explicitly ignore data.zip and all images in kidney folder
