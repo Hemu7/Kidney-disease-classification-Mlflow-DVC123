@@ -18,5 +18,5 @@ Flask==2.2.5
 Flask-Cors==4.0.1
 gdown==5.1.0
 pywinpty==2.0.10
--e .
+
 
